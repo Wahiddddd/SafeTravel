@@ -1,0 +1,23 @@
+@import "mdb-ui-kit/css/mdb.min.css";
+
+@import "beranda.css";
+@import "info-negara.css";
+@import "./pelayanan.css";
+@import "./himbauan.css";
+@import "./fun-facts.css";
+
+.card-text-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.dropdown-menu-custom {
+    background-color: #007fff !important; /* Replace with your desired color */
+}
+
+.dropdown-menu-custom .dropdown-item:hover {
+    background-color: #2071b8; /* Replace with your desired hover color */
+    color: #fff; /* Replace with the desired text color */
+}
